@@ -4,9 +4,9 @@ DELETE  FROM reservations;
 DELETE  FROM property_reviews;
 
 INSERT INTO users(name, email, password) 
-VALUES ('Landon', 'landontipantiza@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-       ('Jalayna', 'jalaynatipantiza@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-       ('Rheema', 'rheematimmer@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u')
+VALUES ('Landon', 'landontipantiza@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+       ('Jalayna', 'jalaynatipantiza@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+       ('Rheema', 'rheematimmer@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.')
 ;
 INSERT INTO properties(owner_id, title, description, thumbnail_photo_url, cover_photo_url, country, street, city, province, post_code, number_of_bedrooms, number_of_bathrooms, parking_spaces, cost_per_night) 
 VALUES (2, 'blank corner', 'description','https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fhouse%2F&psig=AOvVaw0jmktOxm5UrCzMAv8C9xZy&ust=1593121222703000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj90J21m-oCFQAAAAAdAAAAABAD', 'https://thearchitectsdiary.com/wp-content/uploads/2020/04/pexels-photo-186077.jpeg', 'canada', '126 cooper cres', 'saskatoon', 'saskatchewan', 's7e 3h6', 3, 6, 1, 100) ,
